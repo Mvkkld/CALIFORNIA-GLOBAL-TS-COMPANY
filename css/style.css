@@ -93,8 +93,9 @@ button:hover {
     font-size: 1rem;
 }
 header {
-    padding: 1rem 0;
+    padding: .03rem 0;
 }
+
 .shirtCard {
     position: relative;
 }
@@ -337,5 +338,11 @@ a.btn:hover
 form.contactForm .btn:hover {
     background: purple;
     color: #fff;
+}
+.main-navigate {
+    position: fixed;
+    z-index: 1;
+    background-color: darkgray;
+    margin-left: 6rem;
 }
 /* start my css */
